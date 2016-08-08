@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     }
     if(argc < 2 || help)
     {
-        printf("usage: urlObfus url(don't include \"http\") [options]\n"
+        printf("usage: urlObfus url [options]\n"
                        "\tOPTIONS:\n"
                        "\t\t-p [prefix]\t\t-Include a prefix before the spoofed URL\n"
                        "\t\t-S\t\t-Do not convert address at all\n"
