@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
                        "\t\t-p [prefix]\t\t-Include a prefix before the spoofed URL\n"
                        "\t\t-S\t\t-Do not convert address at all\n"
                        "\t\t-s\t\t-Do not convert address to dword\n"
-                       "\t\t-h\t\t-Display this menu");
+                       "\t\t-h\t\t-Display this menu\n");
     }
     else
     {
@@ -126,7 +126,7 @@ int main(int argc, char *argv[])
 
         strcat(new,"/");
         strcat(new,garbageDir);
-        printf("%s",new);
+        printf("%s\n",new);
 
         free(dir);
         free(garbageDir);
